@@ -638,7 +638,7 @@ msgstr "Now has"
 
 #: src/components/Banner/index.tsx
 msgid "ONE NOUN,"
-msgstr "ONE NOUN,"
+msgstr "ONE ORB,"
 
 #: src/components/Documentation/index.tsx
 msgid "On-Chain Artwork"
