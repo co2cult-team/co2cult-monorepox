@@ -51,12 +51,6 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
     // The duration of a single auction
     uint256 public duration;
 
-    // Wallets
-    address public constant WALLET_NOUNS_DAO = 0x0BC3807Ec262cB779b38D65b38158acC3bfedE10;
-    address public constant WALLET_FOODNOUNDERS = 0xf3B4bABD413BB5C572Cbd52A8824fdd2d0ab1FA5;
-    address public constant WALLET_KITCHEN_NOUNCIL = 0x6699a1f89892C0aAed6610e9eB8996d5006F4aE1;
-    address public constant WALLET_COMMUNITY_RESCUE = 0xe895A106F9e55122e13e92B07b76723b3cbDBAE4;
-
     // The active auction
     INounsAuctionHouse.Auction public auction;
 
@@ -234,23 +228,13 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
         auction.settled = true;
 
         if (_auction.bidder == address(0)) {
-            // send to community rescue
-            nouns.transferFrom(address(this), WALLET_COMMUNITY_RESCUE, _auction.nounId);
+            nouns.burn(_auction.nounId);
         } else {
             nouns.transferFrom(address(this), _auction.bidder, _auction.nounId);
         }
 
         if (_auction.amount > 0) {
-            // distribute bid
-            uint256 walletNounsDAOBalance = (_auction.amount * 25) / 100;
-            uint256 walletFoodnounsDAOBalance = (_auction.amount * 50) / 100;
-            uint256 walletKitchenNouncilBalance = (_auction.amount * 15) / 100;
-            uint256 walletFoodnoundersBalance = (_auction.amount * 10) / 100;
-
-            _safeTransferETHWithFallback(WALLET_NOUNS_DAO, walletNounsDAOBalance);
-            _safeTransferETHWithFallback(owner(), walletFoodnounsDAOBalance);
-            _safeTransferETHWithFallback(WALLET_FOODNOUNDERS, walletFoodnoundersBalance);
-            _safeTransferETHWithFallback(WALLET_KITCHEN_NOUNCIL, walletKitchenNouncilBalance);
+            _safeTransferETHWithFallback(owner(), _auction.amount);
         }
 
         emit AuctionSettled(_auction.nounId, _auction.bidder, _auction.amount);
