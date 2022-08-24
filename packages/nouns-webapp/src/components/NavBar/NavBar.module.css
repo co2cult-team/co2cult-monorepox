@@ -80,8 +80,7 @@
 .brandAndTreasuryWrapper {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
-  justify-content: inherit;
+   justify-content: inherit;
   width:100%;
  
 }
