@@ -23,7 +23,6 @@
     margin-right: -5px;
     padding-bottom: 0rem;
   }
-}
 
 /* connect button displays differently to default NavBarItems, thus the !importants */
 .connectBtn {
