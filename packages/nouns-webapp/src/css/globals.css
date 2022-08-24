@@ -5,6 +5,6 @@ body {
 
 .container, .container-lg, .container-xl, .container-xxl {
     max-width: 80vw!important;
-    border:6px dotted red;
+    
 }
 
