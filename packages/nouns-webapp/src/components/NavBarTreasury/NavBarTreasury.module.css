@@ -19,10 +19,13 @@
 }
 
 .treasuryHeader {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-left: 0.25rem;
   margin-right: 0.4rem;
-  margin-top: 1px;
+    font-weight: 900;
+    margin-top: 1px;
+    text-transform: uppercase;
+    color: #0022FF!important;
 }
 
 .warmInfo .icon {
