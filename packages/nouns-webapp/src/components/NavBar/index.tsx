@@ -48,7 +48,11 @@ const NavBar = () => {
   const closeNav = () => setIsNavExpanded(false);
 
   return (
-    <>xxx
+    <>
+            <Navbar.Brand as={Link} to="/" className={classes.navBarBrand}>
+              <img src={logo} className={classes.navBarLogo} alt="Nouns DAO logo" />
+            </Navbar.Brand>      
+xxx      
       <Navbar
         expand="xl"
         style={{ backgroundColor: `${useStateBg ? stateBgColor : 'white'}` }}
