@@ -51,9 +51,13 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
     // The duration of a single auction
     uint256 public duration;
 
-    // Wallets
-    address public constant WALLET_CO2CULT_DAO = 0x2D2e8300c820a486474078587340dabD154f4390;
-    address public constant WALLET_CO2CULT_OFFSET = 0x1fE874d5E6ad96Cb845F707Ba8275f3769A431BE;
+// Wallets - these should be defined elsewhere
+
+// this is owner, should not need to be defined again
+// address public constant WALLET_CO2CULT_DAO = 0x2D2e8300c820a486474078587340dabD154f4390;
+
+address public constant WALLET_CO2CULT_OFFSET = 0x1fE874d5E6ad96Cb845F707Ba8275f3769A431BE;
+
     
     // The active auction
     INounsAuctionHouse.Auction public auction;
@@ -238,6 +242,13 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
         }
 
         if (_auction.amount > 0) {
+
+            // distribute bid
+            uint256 walletco2cultOffsetAmount= (_auction.amount * 50) / 100;
+            uint256 walletco2cultDAOAmount= (_auction.amount * 50) / 100;
+
+            _safeTransferETHWithFallback(WALLET_CO2CULT_OFFSET, walletco2cultOffsetAmount);
+            _safeTransferETHWithFallback(owner(), walletco2cultDAOAmount);   
             _safeTransferETHWithFallback(owner(), _auction.amount);
         }
 
