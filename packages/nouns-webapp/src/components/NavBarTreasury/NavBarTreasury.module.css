@@ -1,13 +1,13 @@
 .wrapper {
   height: 40px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 2em;
   font-family: 'PT Root UI';
   font-weight: bold;
   padding: 0px 10px 0px 10px;
   transition: all 0.125s ease-in-out;
   box-shadow: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  
 }
 
 .button {
@@ -19,7 +19,7 @@
 }
 
 .treasuryHeader {
-  font-size: 16px;
+  font-size: 2rem;
   margin-left: 0.25rem;
   margin-right: 0.4rem;
   margin-top: 1px;
@@ -31,7 +31,7 @@
 }
 
 .treasuryBalance {
-  font-size: 16.5px;
+  font-size: 2rem;
   letter-spacing: 0.3px;
   margin-left: 0.4rem;
   margin-right: 0.25rem;
@@ -57,7 +57,7 @@
 }
 
 .treasuryHeader {
-  opacity: 0.5;
+  
 }
 
 .button:hover {
@@ -92,9 +92,9 @@
 }
 
 .whiteTreasuryHeader {
-  opacity: 0.5;
+  
 }
 
 .whiteInfo:hover {
-  background-color: #e2e3e8;
+  
 }
