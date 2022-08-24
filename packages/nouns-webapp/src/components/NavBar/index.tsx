@@ -82,7 +82,8 @@ const NavBar = () => {
               )}
             </Nav.Item>
           </div>
-          </Navbar>     
+      </Container>
+      </Navbar>
 xxx      
       <Navbar
         expand="xl"
