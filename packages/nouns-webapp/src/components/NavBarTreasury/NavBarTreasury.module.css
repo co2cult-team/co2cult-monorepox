@@ -19,11 +19,11 @@
 }
 
 .treasuryHeader {
-  font-size: 1.6rem;
+  font-size: 1.55rem;
   margin-left: 0.25rem;
   margin-right: 0.4rem;
     font-weight: 900;
-    margin-top: 1px;
+    margin-top: -10px;
     text-transform: uppercase;
     color: #0022FF!important;
 }
@@ -34,10 +34,12 @@
 }
 
 .treasuryBalance {
-  font-size: 2rem;
-  letter-spacing: 0.3px;
-  margin-left: 0.4rem;
-  margin-right: 0.25rem;
+    margin-top: -10px;
+    font-size: 1.55rem;
+    letter-spacing: .3px;
+    margin-left: .4rem;
+    margin-right: 2.5vw;
+    color: #0022FF!important;
 }
 
 @media (max-width: 400px) {
