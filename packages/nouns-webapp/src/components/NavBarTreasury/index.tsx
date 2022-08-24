@@ -47,6 +47,9 @@ const NavBarTreasury: React.FC<NavBarTreasuryProps> = props => {
         </div>
       </div>
     </div>
+    <div>
+    CO2 OFFSET: 17,834 tons
+    </div>
   );
 };
 
