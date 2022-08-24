@@ -48,7 +48,7 @@ const NavBar = () => {
   const closeNav = () => setIsNavExpanded(false);
 
   return (
-    <>
+    <>xxx
       <Navbar
         expand="xl"
         style={{ backgroundColor: `${useStateBg ? stateBgColor : 'white'}` }}
