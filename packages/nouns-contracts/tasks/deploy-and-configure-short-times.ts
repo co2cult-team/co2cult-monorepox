@@ -31,7 +31,7 @@ task(
   .addOptionalParam(
     'auctionDuration',
     'The auction duration (seconds)',
-    60 * 2 /* 2 minutes */,
+    60 * 11 /* 11 minutes auction duration */,
     types.int,
   )
   .addOptionalParam('timelockDelay', 'The timelock delay (seconds)', 60 /* 1 min */, types.int)
