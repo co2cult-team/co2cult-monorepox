@@ -18,12 +18,6 @@
   padding-bottom: 1rem;
 }
 
-@media (max-width: 992px) {
-  .navBarLogo {
-    width: 65px;
-    height: 65px;
-  }
-
   .navBarCustom {
     margin-bottom: -1px;
     margin-right: -5px;
@@ -73,7 +67,7 @@
   font-weight: bold;
   font-size: 0.9rem;
   padding: 0.3rem 0.3rem !important;
-  color: black !important;
+  color: #0020FF !important;
 }
 
 .testnetImg {
@@ -94,7 +88,7 @@
   align-items: center;
   justify-content: inherit;
   width:100%;
-  border: 5px dashed yellow;
+ 
 }
 
 .navBarToggle {
