@@ -15,15 +15,10 @@
   }
 
 .navBarCustom {
-  padding-bottom: 1rem;
+  margin-right: -5px;
+  padding-bottom: 0rem;
   margin-bottom: 400px;
 }
-
-  .navBarCustom {
-    margin-bottom: -1px;
-    margin-right: -5px;
-    padding-bottom: 0rem;
-  }
 
 /* connect button displays differently to default NavBarItems, thus the !importants */
 .connectBtn {
