@@ -93,7 +93,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: inherit;
   width:100%;
   border: 5px dashed yellow;
 }
