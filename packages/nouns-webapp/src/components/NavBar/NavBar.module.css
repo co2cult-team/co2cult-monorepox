@@ -1,5 +1,6 @@
 .navBarBrand {
   position: relative;
+  width:50vw;
   z-index: 2;
   padding: 1rem 0rem;
   transition: all 0.15s ease-in-out;
