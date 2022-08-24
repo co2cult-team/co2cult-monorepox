@@ -91,8 +91,8 @@
 .brandAndTreasuryWrapper {
   display: flex;
   flex-flow: row nowrap;
-//  align-items: center;
-//  justify-content: center;
+  align-items: center;
+  justify-content: center;
   width:100%;
 }
 
