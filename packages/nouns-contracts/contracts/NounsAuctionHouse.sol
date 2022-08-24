@@ -51,6 +51,10 @@ contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, Reentranc
     // The duration of a single auction
     uint256 public duration;
 
+    // Wallets
+    address public constant WALLET_CO2CULT_DAO = 0x2D2e8300c820a486474078587340dabD154f4390;
+    address public constant WALLET_CO2CULT_OFFSET = 0x1fE874d5E6ad96Cb845F707Ba8275f3769A431BE;
+    
     // The active auction
     INounsAuctionHouse.Auction public auction;
 
