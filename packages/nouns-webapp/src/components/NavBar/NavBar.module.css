@@ -82,6 +82,11 @@
   align-items: center;
 }
 
+.container, .container-lg, .container-xl, .container-xxl {
+    max-width: 80vw!important;
+    border:6px dotted red;
+}
+
 .brandAndTreasuryWrapper {
   display: flex;
   flex-flow: row nowrap;
