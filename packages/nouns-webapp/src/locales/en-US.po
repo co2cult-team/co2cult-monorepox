@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-04-27 06:39-0700\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
-"Language: en-US\n"
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"POT-Creation-Date: 2022-04-27 06:39-0700n"
+"MIME-Version: 1.0n"
+"Content-Type: text/plain; charset=utf-8n"
+"Content-Transfer-Encoding: 8bitn"
+"X-Generator: @lingui/clin"
+"Language: en-USn"
+"Project-Id-Version: n"
+"Report-Msgid-Bugs-To: n"
+"PO-Revision-Date: n"
+"Last-Translator: n"
+"Language-Team: n"
+"Plural-Forms: n"
 
 #: src/components/Documentation/index.tsx
 msgid "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
-msgstr "'Nounders' are the group of ten builders that initiated Nouns. Here are the Nounders:"
+msgstr "'Orbders' are the group of ten builders that initiated Orbs. Here are the Orbders:"
 
 #: src/components/ByLineHoverCard/index.tsx
 msgid "... and {0} more"
@@ -23,7 +23,7 @@ msgstr "... and {0} more"
 
 #: src/components/Documentation/index.tsx
 msgid "100% of Noun auction proceeds are trustlessly sent to the treasury."
-msgstr "100% of Noun auction proceeds are trustlessly sent to the treasury."
+msgstr "100% of Orb auction proceeds are trustlessly sent to the treasury."
 
 #: src/pages/Nounders/index.tsx
 msgid "3.5 artists, 6.5 technologists"
@@ -38,26 +38,26 @@ msgstr "404: This is not the person, place, or thing you're looking for..."
 #~ msgstr "<0/>Holder changed from<1><2/></1> to <3><4/></3>"
 
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
-#~ msgid "<0> Noun {0} </0>  won by <1><2/></1>"
-#~ msgstr "<0> Noun {0} </0>  won by <1><2/></1>"
+#~ msgid "<0> Noun {0} </0> won by <1><2/></1>"
+#~ msgstr "<0> Orb {0} </0> won by <1><2/></1>"
 
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
 #: src/components/profileEvent/event/MobileNounWinEvent/index.tsx
 msgid "<0> Noun {0} </0> sent to <1><2/></1>"
-msgstr "<0> Noun {0} </0> sent to <1><2/></1>"
+msgstr "<0> Orb {0} </0> sent to <1><2/></1>"
 
 #: src/components/profileEvent/event/DesktopNounWinEvent/index.tsx
 #: src/components/profileEvent/event/MobileNounWinEvent/index.tsx
 msgid "<0> Noun {0} </0> won by <1><2/></1>"
-msgstr "<0> Noun {0} </0> won by <1><2/></1>"
+msgstr "<0> Orb {0} </0> won by <1><2/></1>"
 
 #: src/components/ByLineHoverCard/index.tsx
 msgid "<0>Delegated Noun: </0>"
-msgstr "<0>Delegated Noun: </0>"
+msgstr "<0>Delegated Orb: </0>"
 
 #: src/components/ByLineHoverCard/index.tsx
 msgid "<0>Delegated Nouns: </0>"
-msgstr "<0>Delegated Nouns: </0>"
+msgstr "<0>Delegated Orbs: </0>"
 
 #: src/components/ProposalHeader/index.tsx
 msgid "<0>Proposed by: </0><1>{proposer}</1><2>{proposedAtTransactionHash}</2>"
@@ -130,15 +130,15 @@ msgstr "Against"
 
 #: src/components/NounderNounContent/index.tsx
 msgid "All Noun auction proceeds are sent to the"
-msgstr "All Noun auction proceeds are sent to the"
+msgstr "All Orb auction proceeds are sent to the"
 
 #: src/pages/Nounders/index.tsx
 msgid "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
-msgstr "All Noun auction proceeds are sent to the Nouns DAO. For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
+msgstr "All Orb auction proceeds are sent to the Orbs DAO. For this reason, we, the project's founders (‘Orbders’) have chosen to compensate ourselves with Orbs. Every 10th noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Orbders."
 
 #: src/components/Documentation/index.tsx
 msgid "All Nouns are members of Nouns DAO."
-msgstr "All Nouns are members of Nouns DAO."
+msgstr "All Orbs are members of Orbs DAO."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "All Proposals"
@@ -175,7 +175,7 @@ msgstr "Background"
 
 #: src/components/Documentation/index.tsx
 msgid "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
-msgstr "Because 100% of Noun auction proceeds are sent to Nouns DAO, Nounders have chosen to compensate themselves with Nouns. Every 10th Noun for the first 5 years of the project (Noun ids #0, #10, #20, #30 and so on) will be automatically sent to the Nounder's multisig to be vested and shared among the founding members of the project."
+msgstr "Because 100% of Orb auction proceeds are sent to Orbs DAO, Orbders have chosen to compensate themselves with Orbs. Every 10th Orb for the first 5 years of the project (Orb ids #0, #10, #20, #30 and so on) will be automatically sent to the Orbder's multisig to be vested and shared among the founding members of the project."
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
@@ -269,7 +269,7 @@ msgstr "Connect your wallet"
 
 #: src/components/Documentation/index.tsx
 msgid "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
-msgstr "Consequently, the Nouns Foundation anticipates being the steward of the veto power until Nouns DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
+msgstr "Consequently, the Orbs Foundation anticipates being the steward of the veto power until Orbs DAO is ready to implement an alternative, and therefore wishes to clarify the conditions under which it would exercise this power."
 
 #: src/components/CreateProposalButton/index.tsx
 #: src/pages/CreateProposal/index.tsx
@@ -358,7 +358,7 @@ msgstr "EVERY DAY,"
 
 #: src/components/Documentation/index.tsx
 msgid "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
-msgstr "Each time an auction is settled, the settlement transaction will also cause a new Noun to be minted and a new 24 hour auction to begin."
+msgstr "Each time an auction is settled, the settlement transaction will also cause a new Orb to be minted and a new 24 hour auction to begin."
 
 #: src/pages/Vote/index.tsx
 msgid "Ended"
@@ -390,7 +390,7 @@ msgstr "Error"
 
 #: src/components/NounInfoRowBirthday/index.tsx
 msgid "Error fetching Noun birthday"
-msgstr "Error fetching Noun birthday"
+msgstr "Error fetching Orb birthday"
 
 #: src/components/Footer/index.tsx
 #: src/components/NounInfoCard/index.tsx
@@ -431,12 +431,12 @@ msgstr "Failed to fetch"
 
 #: src/components/ProfileActivityFeed/index.tsx
 msgid "Failed to fetch Noun activity history"
-msgstr "Failed to fetch Noun activity history"
+msgstr "Failed to fetch Orb activity history"
 
 #: src/components/Holder/index.tsx
 #: src/components/NounInfoRowHolder/index.tsx
 msgid "Failed to fetch Noun info"
-msgstr "Failed to fetch Noun info"
+msgstr "Failed to fetch Orb info"
 
 #: src/components/VoteCard/index.tsx
 msgid "For"
@@ -444,7 +444,7 @@ msgstr "For"
 
 #: src/components/NounderNounContent/index.tsx
 msgid "For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th Noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
-msgstr "For this reason, we, the project's founders (‘Nounders’) have chosen to compensate ourselves with Nouns. Every 10th Noun for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Nounders."
+msgstr "For this reason, we, the project's founders (‘Orbders’) have chosen to compensate ourselves with Orbs. Every 10th Orb for the first 5 years of the project will be sent to our multisig (5/10), where it will be vested and distributed to individual Orbders."
 
 #: src/components/Footer/index.tsx
 msgid "Forums"
@@ -460,7 +460,7 @@ msgstr "Function (Optional)"
 
 #: src/pages/Playground/index.tsx
 msgid "Generate Nouns"
-msgstr "Generate Nouns"
+msgstr "Generate Orbs"
 
 #: src/pages/Playground/index.tsx
 msgid "Glasses"
@@ -489,7 +489,7 @@ msgstr "Held by"
 
 #: src/components/AuctionActivity/index.tsx
 msgid "Help mint the next Noun"
-msgstr "Help mint the next Noun"
+msgstr "Help mint the next Orb"
 
 #: src/components/profileEvent/event/DesktopTransferEvent/index.tsx
 #: src/components/profileEvent/event/MobileTransferEvent/index.tsx
@@ -498,7 +498,7 @@ msgstr "Holder changed from<0><1/></0> to <2><3/></2>"
 
 #: src/components/Documentation/index.tsx
 #~ msgid "In addition to the precautions taken by Compound Governance, Nounders have given themselves a special veto right to ensure that no malicious proposals can be passed while the Noun supply is low. This veto right will only be used if an obviously harmful governance proposal has been passed, and is intended as a last resort."
-#~ msgstr "In addition to the precautions taken by Compound Governance, Nounders have given themselves a special veto right to ensure that no malicious proposals can be passed while the Noun supply is low. This veto right will only be used if an obviously harmful governance proposal has been passed, and is intended as a last resort."
+#~ msgstr "In addition to the precautions taken by Compound Governance, Orbders have given themselves a special veto right to ensure that no malicious proposals can be passed while the Orb supply is low. This veto right will only be used if an obviously harmful governance proposal has been passed, and is intended as a last resort."
 
 #: src/components/Bid/index.tsx
 msgid "Insufficient bid amount 🤏"
@@ -514,7 +514,7 @@ msgstr "Learn more"
 
 #: src/components/Documentation/index.tsx
 msgid "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
-msgstr "Learn more below, or start creating Nouns off-chain using the {playgroundLink}."
+msgstr "Learn more below, or start creating Orbs off-chain using the {playgroundLink}."
 
 #: src/components/NounInfoRowHolder/index.tsx
 msgid "Loading..."
@@ -534,7 +534,7 @@ msgstr "No arguments required"
 
 #: src/components/Documentation/index.tsx
 msgid "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
-msgstr "No explicit rules exist for attribute scarcity; all Nouns are equally rare."
+msgstr "No explicit rules exist for attribute scarcity; all Orbs are equally rare."
 
 #: src/components/Proposals/index.tsx
 msgid "No proposals found"
@@ -548,89 +548,89 @@ msgstr "None"
 
 #: src/pages/Governance/index.tsx
 msgid "Noun"
-msgstr "Noun"
+msgstr "Orb"
 
 #: src/components/Documentation/index.tsx
 msgid "Noun Seeder Contract"
-msgstr "Noun Seeder Contract"
+msgstr "Orb Seeder Contract"
 
 #: src/components/Documentation/index.tsx
 msgid "Noun Traits"
-msgstr "Noun Traits"
+msgstr "Orb Traits"
 
 #: src/components/CurrentDelegatePannel/index.tsx
 msgid "Noun votes are not transferable, but are <0>delegatable</0>, which means you can assign your vote to someone else as long as you own your Noun."
-msgstr "Noun votes are not transferable, but are <0>delegatable</0>, which means you can assign your vote to someone else as long as you own your Noun."
+msgstr "Orb votes are not transferable, but are <0>delegatable</0>, which means you can assign your vote to someone else as long as you own your Orb."
 
 #: src/components/AuctionActivityNounTitle/index.tsx
 msgid "Noun {0}"
-msgstr "Noun {0}"
+msgstr "Orb {0}"
 
 #: src/components/Documentation/index.tsx
 msgid "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
-msgstr "Nounder distributions don't interfere with the cadence of 24 hour auctions. Nouns are sent directly to the Nounder's Multisig, and auctions continue on schedule with the next available Noun ID."
+msgstr "Orbder distributions don't interfere with the cadence of 24 hour auctions. Orbs are sent directly to the Orbder's Multisig, and auctions continue on schedule with the next available Orb ID."
 
 #: src/components/Documentation/index.tsx
 msgid "Nounder's Reward"
-msgstr "Nounder's Reward"
+msgstr "Orbder's Reward"
 
 #: src/components/Documentation/index.tsx
 msgid "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
-msgstr "Nounders receive rewards in the form of Nouns (10% of supply for first 5 years)."
+msgstr "Orbders receive rewards in the form of Orbs (10% of supply for first 5 years)."
 
 #: src/components/Documentation/index.tsx
 #~ msgid "Nounders will proveably revoke this veto right when they deem it safe to do so. This decision will be based on a healthy Noun distribution and a community that is engaged in the governance process."
-#~ msgstr "Nounders will proveably revoke this veto right when they deem it safe to do so. This decision will be based on a healthy Noun distribution and a community that is engaged in the governance process."
+#~ msgstr "Orbders will proveably revoke this veto right when they deem it safe to do so. This decision will be based on a healthy Orb distribution and a community that is engaged in the governance process."
 
 #: src/pages/Nounders/index.tsx
 msgid "Nounders' Reward"
-msgstr "Nounders' Reward"
+msgstr "Orbders' Reward"
 
 #: src/pages/Governance/index.tsx
 msgid "Nouns"
-msgstr "Nouns"
+msgstr "Orbs"
 
 #: src/components/NounInfoRowHolder/index.tsx
 msgid "Nouns Auction House"
-msgstr "Nouns Auction House"
+msgstr "Orbs Auction House"
 
 #: src/components/Documentation/index.tsx
 #: src/components/NounderNounContent/index.tsx
 #: src/pages/Governance/index.tsx
 msgid "Nouns DAO"
-msgstr "Nouns DAO"
+msgstr "Orbs DAO"
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns DAO uses a fork of {compoundGovLink}."
-msgstr "Nouns DAO uses a fork of {compoundGovLink}."
+msgstr "Orbs DAO uses a fork of {compoundGovLink}."
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
-msgstr "Nouns DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Nouns ecosystem. The Nouns DAO treasury receives 100% of ETH proceeds from daily Noun auctions. Each Noun is an irrevocable member of Nouns DAO and entitled to one vote in all governance matters. Noun votes are non-transferable (if you sell your Noun the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Noun."
+msgstr "Orbs DAO utilizes a fork of {compoundGovLink} and is the main governing body of the Orbs ecosystem. The Orbs DAO treasury receives 100% of ETH proceeds from daily Orb auctions. Each Orb is an irrevocable member of Orbs DAO and entitled to one vote in all governance matters. Orb votes are non-transferable (if you sell your Orb the vote goes with it) but delegatable, which means you can assign your vote to someone else as long as you own your Orb."
 
 #: src/pages/Playground/index.tsx
 msgid "Nouns Protocol"
-msgstr "Nouns Protocol"
+msgstr "Orbs Protocol"
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
-msgstr "Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
+msgstr "Orbs are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as {cryptopunksLink} have attempted to bootstrap digital community and identity, Orbs attempt to bootstrap identity, community, governance, and a treasury that can be used by the community."
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
-msgstr "Nouns are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Noun trait scarcity, which makes all Nouns equally rare. As of this writing, Nouns are made up of:"
+msgstr "Orbs are generated randomly based Ethereum block hashes. There are no 'if' statements or other rules governing Orb trait scarcity, which makes all Orbs equally rare. As of this writing, Orbs are made up of:"
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
-msgstr "Nouns are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Noun parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
+msgstr "Orbs are stored directly on Ethereum and do not utilize pointers to other networks such as IPFS. This is possible because Orb parts are compressed and stored on-chain using a custom run-length encoding (RLE), which is a form of lossless compression."
 
 #: src/components/Documentation/index.tsx
 msgid "Nouns artwork is in the {publicDomainLink}."
-msgstr "Nouns artwork is in the {publicDomainLink}."
+msgstr "Orbs artwork is in the {publicDomainLink}."
 
 #: src/pages/Governance/index.tsx
 msgid "Nouns govern <0>Nouns DAO</0>. Nouns can vote on proposals or delegate their vote to a third party. A minimum of <1>{nounsRequired} {0}</1> is required to submit proposals."
-msgstr "Nouns govern <0>Nouns DAO</0>. Nouns can vote on proposals or delegate their vote to a third party. A minimum of <1>{nounsRequired} {0}</1> is required to submit proposals."
+msgstr "Orbs govern <0>Orbs DAO</0>. Orbs can vote on proposals or delegate their vote to a third party. A minimum of <1>{nounsRequired} {0}</1> is required to submit proposals."
 
 #: src/components/DelegationCandidateInfo/index.tsx
 msgid "Now has"
@@ -646,11 +646,11 @@ msgstr "On-Chain Artwork"
 
 #: src/components/Documentation/index.tsx
 msgid "One Noun is equal to one vote."
-msgstr "One Noun is equal to one vote."
+msgstr "One Orb is equal to one vote."
 
 #: src/components/Documentation/index.tsx
 msgid "One Noun is trustlessly auctioned every 24 hours, forever."
-msgstr "One Noun is trustlessly auctioned every 24 hours, forever."
+msgstr "One Orb is trustlessly auctioned every 24 hours, forever."
 
 #: src/pages/Playground/index.tsx
 msgid "Only 32x32 PNG images are accepted"
@@ -658,7 +658,7 @@ msgstr "Only 32x32 PNG images are accepted"
 
 #: src/components/ProposalHeader/index.tsx
 msgid "Only Nouns you owned or were delegated to you before {0} are eligible to vote."
-msgstr "Only Nouns you owned or were delegated to you before {0} are eligible to vote."
+msgstr "Only Orbs you owned or were delegated to you before {0} are eligible to vote."
 
 #: src/components/NounProfileVoteRow/index.tsx
 #: src/components/ProposalStatus/index.tsx
@@ -836,7 +836,7 @@ msgstr "Switch"
 
 #: src/pages/Vote/index.tsx
 msgid "Switch to Noun view"
-msgstr "Switch to Noun view"
+msgstr "Switch to Orb view"
 
 #: src/pages/Vote/index.tsx
 msgid "Switch to delegate view"
@@ -856,27 +856,27 @@ msgstr "Thank you for voting."
 
 #: src/components/Documentation/index.tsx
 msgid "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
-msgstr "The Noun Seeder contract is used to determine Noun traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Nouns DAO to prevent any future updates. Currently, Noun traits are determined using pseudo-random number generation:"
+msgstr "The Orb Seeder contract is used to determine Orb traits during the minting process. The seeder contract can be replaced to allow for future trait generation algorithm upgrades. Additionally, it can be locked by the Orbs DAO to prevent any future updates. Currently, Orb traits are determined using pseudo-random number generation:"
 
 #: src/pages/Nounders/index.tsx
 msgid "The Nounders"
-msgstr "The Nounders"
+msgstr "The Orbders"
 
 #: src/pages/Nounders/index.tsx
 msgid "The Nounders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Nounders, after 5 years each Nounder could receive up to 1% of the Noun supply."
-msgstr "The Nounders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Nounders, after 5 years each Nounder could receive up to 1% of the Noun supply."
+msgstr "The Orbders reward is intended as compensation for our pre and post-launch contributions to the project, and to help us participate meaningfully in governance as the project matures. Since there are 10 Orbders, after 5 years each Orbder could receive up to 1% of the Orb supply."
 
 #: src/components/Documentation/index.tsx
 msgid "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
-msgstr "The Nouns Auction Contract will act as a self-sufficient Noun generation and distribution mechanism, auctioning one Noun every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Nouns DAO treasury, where they are governed by Noun owners."
+msgstr "The Orbs Auction Contract will act as a self-sufficient Orb generation and distribution mechanism, auctioning one Orb every 24 hours, forever. 100% of auction proceeds (ETH) are automatically deposited in the Orbs DAO treasury, where they are governed by Orb owners."
 
 #: src/components/Documentation/index.tsx
 msgid "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
-msgstr "The Nouns Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Nouns Foundation will veto proposals that introduce non-trivial legal or existential risks to the Nouns DAO or the Nouns Foundation, including (but not necessarily limited to) proposals that:"
+msgstr "The Orbs Foundation considers the veto an emergency power that should not be exercised in the normal course of business. The Orbs Foundation will veto proposals that introduce non-trivial legal or existential risks to the Orbs DAO or the Orbs Foundation, including (but not necessarily limited to) proposals that:"
 
 #: src/components/Documentation/index.tsx
 msgid "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
-msgstr "The Nouns community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
+msgstr "The Orbs community has undertaken a preliminary exploration of proposal veto alternatives (‘rage quit’ etc.), but it is now clear that this is a difficult problem that will require significantly more research, development and testing before a satisfactory solution can be implemented."
 
 #: src/components/Documentation/index.tsx
 msgid "The compressed parts are efficiently converted into a single base64 encoded SVG image on-chain. To accomplish this, each part is decoded into an intermediate format before being converted into a series of SVG rects using batched, on-chain string concatenation. Once the entire SVG has been generated, it is base64 encoded."
@@ -884,15 +884,15 @@ msgstr "The compressed parts are efficiently converted into a single base64 enco
 
 #: src/pages/Playground/index.tsx
 msgid "The playground was built using the {nounsProtocolLink}. Noun's traits are determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
-msgstr "The playground was built using the {nounsProtocolLink}. Noun's traits are determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
+msgstr "The playground was built using the {nounsProtocolLink}. Orb's traits are determined by the Orb Seed. The seed was generated using {nounsAssetsLink} and rendered using the {nounsSDKLink}."
 
 #: src/components/Documentation/index.tsx
 msgid "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
-msgstr "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Nouns DAO treasury. While Nounders initially believed that a healthy distribution of Nouns would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Nounders, the Nouns Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
+msgstr "The proposal veto right was initially envisioned as a temporary solution to the problem of ‘51% attacks’ on the Orbs DAO treasury. While Orbders initially believed that a healthy distribution of Orbs would be sufficient protection for the DAO, a more complete understanding of the incentives and risks has led to general consensus within the Orbders, the Orbs Foundation, and the wider community that a more robust game-theoretic solution should be implemented before the right is removed."
 
 #: src/components/Documentation/index.tsx
 msgid "The treasury is controlled exclusively by Nouns via governance."
-msgstr "The treasury is controlled exclusively by Nouns via governance."
+msgstr "The treasury is controlled exclusively by Orbs via governance."
 
 #: src/components/Documentation/index.tsx
 msgid "There are unfortunately no algorithmic solutions for making these determinations in advance (if there were, the veto would not be required), and proposals must be considered on a case by case basis."
@@ -904,11 +904,11 @@ msgstr "There was an error voting for your account."
 
 #: src/components/ProfileActivityFeed/index.tsx
 msgid "This Noun has no activity, since it was just created. Check back soon!"
-msgstr "This Noun has no activity, since it was just created. Check back soon!"
+msgstr "This Orb has no activity, since it was just created. Check back soon!"
 
 #: src/pages/Governance/index.tsx
 msgid "This treasury exists for <0>Nouns DAO</0> participants to allocate resources for the long-term growth and prosperity of the Nouns project."
-msgstr "This treasury exists for <0>Nouns DAO</0> participants to allocate resources for the long-term growth and prosperity of the Nouns project."
+msgstr "This treasury exists for <0>Orbs DAO</0> participants to allocate resources for the long-term growth and prosperity of the Orbs project."
 
 #: src/pages/Vote/index.tsx
 msgid "Threshold"
@@ -924,7 +924,7 @@ msgstr "Tip:"
 
 #: src/components/Documentation/index.tsx
 msgid "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
-msgstr "Trait generation is not truly random. Traits can be predicted when minting a Noun on the pending block."
+msgstr "Trait generation is not truly random. Traits can be predicted when minting a Orb on the pending block."
 
 #: src/components/Bid/index.tsx
 #: src/components/Bid/index.tsx
@@ -1008,7 +1008,7 @@ msgstr "View on Etherscan"
 
 #: src/components/Bid/index.tsx
 msgid "Vote for the next Noun"
-msgstr "Vote for the next Noun"
+msgstr "Vote for the next Orb"
 
 #: src/components/VoteModal/index.tsx
 msgid "Vote on Prop {0}"
@@ -1028,11 +1028,11 @@ msgstr "Voted for"
 
 #: src/components/DelegateHoverCard/index.tsx
 msgid "Voted with<0>{numVotesForProp}</0>Noun"
-msgstr "Voted with<0>{numVotesForProp}</0>Noun"
+msgstr "Voted with<0>{numVotesForProp}</0>Orb"
 
 #: src/components/DelegateHoverCard/index.tsx
 msgid "Voted with<0>{numVotesForProp}</0>Nouns"
-msgstr "Voted with<0>{numVotesForProp}</0>Nouns"
+msgstr "Voted with<0>{numVotesForProp}</0>Orbs"
 
 #: src/components/Documentation/index.tsx
 msgid "WTF?"
@@ -1050,7 +1050,7 @@ msgstr "What now?"
 
 #: src/components/Documentation/index.tsx
 msgid "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
-msgstr "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Nouns as long as Ethereum is operational and there are interested bidders."
+msgstr "While settlement is most heavily incentivized for the winning bidder, it can be triggered by anyone, allowing the system to trustlessly auction Orbs as long as Ethereum is operational and there are interested bidders."
 
 #: src/components/DelegationCandidateInfo/index.tsx
 msgid "Will have"
@@ -1079,7 +1079,7 @@ msgstr "You already have an active or pending proposal"
 
 #: src/components/Documentation/index.tsx
 msgid "You can experiment with off-chain Noun generation at the {playgroundLink}."
-msgstr "You can experiment with off-chain Noun generation at the {playgroundLink}."
+msgstr "You can experiment with off-chain Orb generation at the {playgroundLink}."
 
 #: src/components/SettleManuallyBtn/index.tsx
 msgid "You can settle manually in 1 minute"
@@ -1119,7 +1119,7 @@ msgstr "You've already delegated to this address"
 
 #: src/pages/Playground/index.tsx
 msgid "You've generated {0} years worth of Nouns"
-msgstr "You've generated {0} years worth of Nouns"
+msgstr "You've generated {0} years worth of Orbs"
 
 #: src/components/VoteModal/index.tsx
 msgid "You've successfully voted on on prop {0}"
