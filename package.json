@@ -45,5 +45,8 @@
       "yarn lint",
       "yarn format"
     ]
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }

@@ -51,42 +51,6 @@ const NavBar = () => {
     <>
       <Navbar
         expand="xl"
-        
-        className={classes.navBarCustom}
-        expanded={isNavExpanded}
-      >
-        <Container style={{ maxWidth: 'unset' }}>
-          <div className={classes.brandAndTreasuryWrapper}>
-            <Navbar.Brand as={Link} to="/" className={classes.navBarBrand}>
-              <img src={logo} className={classes.navBarLogo} alt="Nouns DAO logo" />
-            </Navbar.Brand>
-            {Number(CHAIN_ID) !== 1 && (
-              <Nav.Item>
-                <img className={classes.testnetImg} src={testnetNoun} alt="testnet noun" />
-                TESTNET
-              </Nav.Item>
-            )}
-            <Nav.Item>
-              {treasuryBalance && (
-                <Nav.Link
-                  href={daoEtherscanLink}
-                  className={classes.nounsNavLink}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <NavBarTreasury
-                    treasuryBalance={Number(utils.formatEther(treasuryBalance)).toFixed(0)}
-                    treasuryStyle={nonWalletButtonStyle}
-                  />
-                </Nav.Link>
-              )}
-            </Nav.Item>
-          </div>
-      </Container>
-      </Navbar>
-xxx      
-      <Navbar
-        expand="xl"
         style={{ backgroundColor: `${useStateBg ? stateBgColor : 'white'}` }}
         className={classes.navBarCustom}
         expanded={isNavExpanded}

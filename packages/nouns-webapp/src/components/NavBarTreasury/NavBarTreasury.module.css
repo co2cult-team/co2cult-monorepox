@@ -1,31 +1,29 @@
 .wrapper {
   height: 40px;
   border-radius: 10px;
-  font-size: 2em;
+  font-size: 16px;
   font-family: 'PT Root UI';
   font-weight: bold;
   padding: 0px 10px 0px 10px;
   transition: all 0.125s ease-in-out;
   box-shadow: none;
-  
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 .treasuryHeader {
-  font-size: 1.55rem;
+  font-size: 16px;
   margin-left: 0.25rem;
   margin-right: 0.4rem;
-    font-weight: 900;
-    margin-top: -10px;
-    text-transform: uppercase;
-    color: #0022FF!important;
+  margin-top: 1px;
 }
 
 .warmInfo .icon {
@@ -34,12 +32,10 @@
 }
 
 .treasuryBalance {
-    margin-top: -10px;
-    font-size: 1.55rem;
-    letter-spacing: .3px;
-    margin-left: .4rem;
-    margin-right: 2.5vw;
-    color: #0022FF!important;
+  font-size: 16.5px;
+  letter-spacing: 0.3px;
+  margin-left: 0.4rem;
+  margin-right: 0.25rem;
 }
 
 @media (max-width: 400px) {
@@ -62,7 +58,7 @@
 }
 
 .treasuryHeader {
-  
+  opacity: 0.5;
 }
 
 .button:hover {
@@ -93,13 +89,13 @@
 }
 
 .whiteInfo {
-  
+  background: white;
 }
 
 .whiteTreasuryHeader {
-  
+  opacity: 0.5;
 }
 
 .whiteInfo:hover {
-  
+  background-color: #e2e3e8;
 }

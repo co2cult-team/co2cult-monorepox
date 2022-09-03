@@ -1,19 +1,12 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px !important;
+  }
+}
 
 body {
   overflow-x: hidden;
 }
-
-body {
-	
-background-image: url("https://co2cult.awebsitethat.rocks/wp-content/uploads/2022/05/DESKTOP.png");
- background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 80vw;
-  background-position: top center;
-}
-
-.container, .container-lg, .container-xl, .container-xxl {
-    max-width: 80vw!important;
-    
-}
-

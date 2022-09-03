@@ -1,6 +1,5 @@
 .navBarBrand {
   position: relative;
-  width:50vw;
   z-index: 2;
   padding: 1rem 0rem;
   transition: all 0.15s ease-in-out;
@@ -11,13 +10,25 @@
 }
 
 .navBarLogo {
-  width: 6vw;
-  }
+  width: 75px;
+  height: 75px;
+}
 
 .navBarCustom {
-  margin-right: -5px;
-  padding-bottom: 0rem;
-  margin-bottom: 800px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .navBarLogo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .navBarCustom {
+    margin-bottom: -1px;
+    margin-right: -5px;
+    padding-bottom: 0rem;
+  }
 }
 
 /* connect button displays differently to default NavBarItems, thus the !importants */
@@ -59,10 +70,10 @@
 .nounsNavLink:active,
 .nounsNavLink:visited {
   font-family: 'PT Root UI';
-  font-weight: 700;
+  font-weight: bold;
   font-size: 0.9rem;
   padding: 0.3rem 0.3rem !important;
-  color: #0020FF !important;
+  color: black !important;
 }
 
 .testnetImg {
@@ -80,9 +91,8 @@
 .brandAndTreasuryWrapper {
   display: flex;
   flex-flow: row nowrap;
-   justify-content: inherit;
-  width:100%;
- 
+  align-items: center;
+  justify-content: center;
 }
 
 .navBarToggle {
